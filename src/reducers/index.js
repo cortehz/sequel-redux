@@ -1,7 +1,10 @@
-import { combineReducers } from 'redux';
+import { combineReducers } from "redux";
+import TabReducer from "./TabReducer";
+import ActiveTab from "./ActiveTab";
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  tabs: TabReducer,
+  activeTab: ActiveTab
 });
 
 export default rootReducer;

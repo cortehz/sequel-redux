@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.body {
+    background-color: aqua;
+}
+
+* {
+    margin: 0;
+}
+
+.nav-class {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.sequel-header {
+    background-color: rgb(246, 246, 246);
+    border-bottom: 1px solid #000;
+}
+
+.minimizer-icon {
+    margin: 2px;
+}
+
+.sequel-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.minimizers {
+    display: flex;
+    flex-direction: row;
+}
+
+.second-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+div>.table-history {
+    margin-left: auto;
+}
+
+.structure-query {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+}
+
+.structure-query i {
+    font-size: 32px;
+}
+
+.table-history {
+    display: flex;
+    flex-direction: row;
+}
+
+.table-history-class {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.table-history-class i {
+    font-size: 32px;
+}
+
+.structure {
+    margin-right: 7px;
+    margin-left: 7px;
+}
+
+.select select {
+    width: 150px;
+}
+
+.choose-database {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.database-select {
+    margin-top: 15px;
+}
+
+aside.quickConnect {
+    display: flex;
+}
+
+aside {
+    height: 87vh;
+    width: 14vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 231, 231);
+}
+
+main.main {
+    display: flex;
+}
+
+.quickConnectSub {
+    padding: 10px;
+}
+
+.quickConnectSub3 {
+    display: flex;
+    margin-top: auto;
+    background-color: rgb(247, 247, 247);
+}
+
+.iconDiv {
+    margin-left: auto !important;
+}
+
+.icon-div {
+    padding: 5px;
+    border-right: 1px solid rgb(196, 196, 196);
+}
+
+section {
+    display: flex;
+    width: 86vw;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+}
+
+.connection-details {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.the-form {
+    background-color: darkgray;
+    padding: 5%;
+    width: 400px;
+}
+
+.form-class {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 10%;
+}
+
+/* label {
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+    margin: 1.5%;
+  }​ */
+
+input {
+    width: 200px;
+    margin: 2%;
+}
+
+
+.submit-class {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-group button {
+    background-color: #fff;
+    /* Green background */
+    border: 1px solid rgb(229, 229, 229);
+    /* Green border */
+    color: #000;
+    /* White text */
+    padding: 5px 12px;
+    /* Some padding */
+    cursor: pointer;
+    /* Pointer/hand icon */
+    float: left;
+    /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+    /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+/* .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
